@@ -1,0 +1,11 @@
+name: Hello World
+run-name: This is github action ref ${{ github.actor }} 
+on: issues 
+
+jobs:
+  helloWorld:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello 
+        run : echo "Hello World"
+
